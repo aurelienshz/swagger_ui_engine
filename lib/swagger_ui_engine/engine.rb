@@ -19,7 +19,7 @@ module SwaggerUiEngine
       )
 
       Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'fonts')
-      Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+      # Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
     end
   end
 end
